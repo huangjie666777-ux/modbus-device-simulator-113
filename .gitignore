@@ -1,0 +1,10 @@
+target/
+.m2/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+.idea/
+*.iml
