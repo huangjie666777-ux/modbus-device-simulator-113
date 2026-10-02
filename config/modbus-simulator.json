@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 11502,
+    "maxConnections": 8,
+    "maxFrameLength": 260
+  },
+  "devices": [
+    {
+      "unitId": 1,
+      "coilStartAddress": 0,
+      "coils": [true, false, true, false, false, true, true, false, false, false, true, false],
+      "holdingStartAddress": 0,
+      "holdingRegisters": [100, 200, 300, 400, 500, 600, 700, 800]
+    },
+    {
+      "unitId": 2,
+      "coilStartAddress": 100,
+      "coils": [false, true, true, false],
+      "holdingStartAddress": 1000,
+      "holdingRegisters": [65535, 1234, 4321, 0, 32768]
+    }
+  ]
+}
