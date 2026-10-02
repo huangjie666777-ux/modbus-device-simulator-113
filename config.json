@@ -1,0 +1,16 @@
+{
+  "port": 15020,
+  "maxConnections": 16,
+  "units": [
+    {
+      "unitId": 1,
+      "coils": { "start": 0, "values": [true, false, true, false, true, false, true, false] },
+      "holdingRegisters": { "start": 0, "values": [100, 200, 300, 400] }
+    },
+    {
+      "unitId": 2,
+      "coils": { "start": 0, "values": [false, false, false, false, false, false, false, false, false, false] },
+      "holdingRegisters": { "start": 0, "values": [1, 2, 3, 4, 5, 6, 7, 8] }
+    }
+  ]
+}
